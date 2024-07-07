@@ -8,9 +8,16 @@ const NavBar = () => {
     <Fragment>
       <HStack justifyContent="space-between" padding="10px">
         <Img src={logo} boxSize="60px" />
-        <Text fontSize="20px">
-          <ColorModeSwitch />
+        <Text fontSize="30px" fontWeight="bold">
+          Nav Bar: This is a{" "}
+          <span
+            style={{ color: "orange", fontSize: "35px", fontStyle: "italic" }}
+          >
+            second-handed
+          </span>{" "}
+          store.
         </Text>
+        <ColorModeSwitch />
       </HStack>
     </Fragment>
   );
