@@ -18,7 +18,11 @@ const NavBar = ({ onSearch }: Props) => {
           <Text fontSize="30px" fontWeight="bold">
             Nav Bar: This is a{" "}
             <span
-              style={{ color: "orange", fontSize: "35px", fontStyle: "italic" }}
+              style={{
+                color: "orange",
+                fontSize: "35px",
+                fontStyle: "italic",
+              }}
             >
               second-handed
             </span>{" "}
