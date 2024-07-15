@@ -12,7 +12,7 @@ interface Props {
 const NavBar = ({ onSearch }: Props) => {
   return (
     <Fragment>
-      <HStack padding="10px">
+      <HStack justify="space-between" padding="10px">
         <Img src={logo} boxSize="50px" />
         <Stack>
           <Text fontSize="30px" fontWeight="bold">
@@ -26,7 +26,7 @@ const NavBar = ({ onSearch }: Props) => {
             >
               second-handed
             </span>{" "}
-            store.
+            game store.
           </Text>
           <SearchInput onSearch={onSearch} />
         </Stack>

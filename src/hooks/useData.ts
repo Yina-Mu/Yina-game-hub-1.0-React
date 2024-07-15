@@ -29,10 +29,10 @@ const useData = <T>(endpoint: string, requestConfig?: AxiosRequestConfig, depend
         setLoading(false);
       });
 
-      return () => controller.abort();
+    return () => controller.abort();
   }, dependicies ? [...dependicies]: []);
 
   return { data, error, isLoading };
-  }
+  };
 
   export default useData;

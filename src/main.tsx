@@ -1,19 +1,10 @@
-{
-  /* #1 import React */
-}
 import React from "react";
 import ReactDOM from "react-dom/client";
-{
-  /* #2 import third part libraries */
-}
 import {
   ChakraProvider,
   ColorModeProvider,
   ColorModeScript,
 } from "@chakra-ui/react";
-{
-  /* #3 import own libraries */
-}
 import App from "./App";
 import theme from "./theme";
 import "./index.css";
